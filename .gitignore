@@ -1,0 +1,43 @@
+Sensitive Environment & Credentials
+
+.env
+.env.*
+*.pem
+
+SQLite Database & Volume Data
+
+*.db
+*.db-wal
+*.db-shm
+data/
+
+Python Bytecode & Cache
+
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+Virtual Environments
+
+.venv/
+venv/
+env/
+ENV/
+
+IDE & Editor Settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS Artifacts
+
+.DS_Store
+Thumbs.db
+
+Logs
+
+*.log

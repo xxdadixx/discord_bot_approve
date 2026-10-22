@@ -1,0 +1,12 @@
+.env
+.git
+.gitignore
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.db-wal
+*.db-shm
+.venv/
+venv/
